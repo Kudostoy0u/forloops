@@ -1,0 +1,1 @@
+module.exports={forin:(o,e)=>{for(let t=0;t<o.length;t++)e(t)},repeat:(o,e)=>{for(let t=0;t<o;t++)e(t)}}

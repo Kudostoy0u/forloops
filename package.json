@@ -1,0 +1,15 @@
+{
+  "name": "forloops",
+  "version": "1.0.0",
+  "description": "For in loops and for loops (repeat) meet FP",
+  "main": "baseutil.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "npm"
+  ],
+  "author": "Kudos Beluga",
+  "license": "MIT"
+}
