@@ -4,10 +4,11 @@
 
 ## This was the for..in loop (and the normal for loop)
 
-## The raw code is around 100 bytes (not accounting for README.md and package.json), so no bloat!
+## The raw code is around 100 bytes (not accounting for README.md and package.json), so no bloat
 
-## Example code:
-```
+## Example code
+
+```javascript
 const loops = require("forloops")
 let arr = [1,3,4,9];
 loops.forin(arr,e => {
