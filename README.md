@@ -1,11 +1,12 @@
-# Oh hi there!
+# Oh hi there
 
-## There is a feature I would have wanted to have in Lodash, but there was none.
+There is a feature I would have wanted to have in Lodash, but there was none.
 
-## This was the for..in loop (and the normal for loop)
+This was the for in loop (and the normal for loop)
 
-## The raw code is 150 bytes (not accounting for README.md and package.json), so no bloat
-## I program in functional programming most of the time but sometimes my mind thinks in an imperative style, so that's why I made this
+ The raw code is 150 bytes (not accounting for README.md and package.json), so no bloat
+ I program in functional programming most of the time but sometimes my mind thinks in an imperative style, so that's why I made this
+
 ## Example code
 
 ```javascript
