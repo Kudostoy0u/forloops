@@ -1,1 +1,1 @@
-module.exports={forin:(o,e)=>{for(let t=0;t<o.length;t++)e(t)},repeat:(o,e)=>{for(let t=0;t<o;t++)e(t)}}
+module.exports={forin:(e,o)=>{for(let l=0;l<e.length;l++)o(l)},repeat:(e,o,l=!1)=>{if(l&&o)for(let o=e-1;o>=0;o--)l(o);else for(let l=0;l<e;l++)o(l)}}

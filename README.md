@@ -4,7 +4,7 @@
 
 ## This was the for..in loop (and the normal for loop)
 
-## The raw code is around 100 bytes (not accounting for README.md and package.json), so no bloat
+## The raw code is 150 bytes (not accounting for README.md and package.json), so no bloat
 
 ## Example code
 
@@ -15,8 +15,13 @@ loops.forin(arr,e => {
     console.log(e,arr[e]);
     // Returns index and element
 })
-loops.repeat(3, e => {
+loops.repeat(arr.length, e => {
     console.log(e);
-    // Returns 0, 1, 2
+    // Returns 0, 1, 2, 3
+})
+// Reverse the order
+loops.repeat(arr.length,true, e => {
+    console.log(e)
+    // Returns 3, 2, 1, 0
 })
 ```
